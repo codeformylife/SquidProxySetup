@@ -52,4 +52,4 @@
         – Mở cổng (VD: 80) trên zone đang active (Public Zone)
         ->> firewall-cmd --zone=public --add-port=80/tcp --permanent
         – Sau đó để luật mới có hiệu lực cần reload lại tường lửa bằng command sau:
-        ->> firewall-cmd --reload
+        ->> firewall-cmd --reload.
